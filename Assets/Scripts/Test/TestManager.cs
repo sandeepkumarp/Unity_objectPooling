@@ -8,7 +8,7 @@ public class TestManager : MonoBehaviour
 
     void Start()
     {
-        PoolManager.instance.CreatePool(prefab, 3);
+        PoolManager.instance.CreatePool(prefab, 1);
     }
 
     // Update is called once per frame
